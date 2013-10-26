@@ -15,8 +15,6 @@ Current features
 * Base structure for JSON responses to allow integration between different plugins.
 * Web-based administration
 
-Read the wiki for a more detailed introduction.
-
 ### Usage
 To localize text in your Razor Views, use the `@T("text")` alias method:
 ```html
