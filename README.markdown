@@ -1,4 +1,4 @@
-Sunshine-Attack.Localization
+SunshineAttack.Localization
 ----------------------------
 
 Forked https://github.com/jgauffin/griffin.mvccontrib to focus on localization and RavenDB. The following changes have been made:
