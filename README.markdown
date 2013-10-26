@@ -38,10 +38,10 @@ To localize text in your Razor Views, use the `@T("text")` alias method:
 * SunshineAttack.Localization
 ```
 
-2. In your project's web.config, add the following elements to the `<configuration>` section:
+2. In your project's web.config, add the following elements to the `<configuration>` section and replace the `connectionString` with your own `url` and `database` information.:
 ```xml
 <connectionStrings>
-    <add name="RavenDB" connectionString="Url=http://Vader:8080;Database=SunshineAttack.Localization" />
+    <add name="RavenDB" connectionString="Url=http://YOURSERVER:8080;Database=SunshineAttack.Localization" />
   </connectionStrings>
 ```
 
