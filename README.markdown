@@ -17,18 +17,7 @@ Read the wiki for a more detailed introduction.
 * Base structure for JSON responses to allow integration between different plugins.
 * Administration area for localization administration
 
-Installation (nuget)
---------------------
 
-	// base package
-    install-package griffin.mvccontrib
-	
-	// administration area
-	install-package griffin.mvccontrib.admin
-
-	// ravendb and localization storage
-	install-package griffin.mvccontrib.ravendb
-	
 	
 
 
