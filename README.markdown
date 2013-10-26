@@ -47,7 +47,7 @@ To localize text in your Razor Views, use the `@T("text")` alias method:
   </connectionStrings>
 ```
 
-3. Make sure your projects ***global.asax*** has most of the code from the [SunshineAttack.Localization.Admin.TestProject ***global.asax***](https://github.com/sunshine-attack/SunshineAttack.Localization/blob/master/source/SunshineAttack.Localization.Admin.TestProject/Global.asax.cs)
+3. Make sure your project's ***global.asax*** has most of the code from the [SunshineAttack.Localization.Admin.TestProject ***global.asax***](https://github.com/sunshine-attack/SunshineAttack.Localization/blob/master/source/SunshineAttack.Localization.Admin.TestProject/Global.asax.cs)
 
 
 
