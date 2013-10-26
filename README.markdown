@@ -1,7 +1,7 @@
 SunshineAttack.Localization
 ----------------------------
 
-Forked https://github.com/jgauffin/griffin.mvccontrib to focus on localization and RavenDB. The following changes have been made:
+Forked https://github.com/jgauffin/griffin.mvccontrib to focus on localization and using RavenDB as the primary data provider. The following changes have been made:
 
 * Removed membership provider features
 * Added ASP.NET MVC 5 support
