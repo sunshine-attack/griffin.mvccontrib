@@ -36,10 +36,10 @@ namespace Griffin.MvcContrib.RavenDb.Localization
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TypeLocalizationRepository"/> class.
 		/// </summary>
-		/// <param name="documentSession">The document session used to work with the database.</param>
-		public TypeLocalizationRepository(IDocumentSession documentSession)
+        /// <param name="documentStore">The document session used to work with the database.</param>
+		public TypeLocalizationRepository(IDocumentStore documentStore)
 		{
-			_documentSession = documentSession;
+            _documentSession = documentStore.OpenSession();
 			CheckValidationPrompts();
 		}
 
@@ -96,8 +96,8 @@ namespace Griffin.MvcContrib.RavenDb.Localization
 				if (Cache.TryGetValue(culture.LCID, out document))
 					return document;
 			}
-
-			document = _documentSession.Load<TypeLocalizationDocument>(culture.Name);
+    
+		    document = _documentSession.Load<TypeLocalizationDocument>("TypeLocalizationDocument/"+culture.Name);
 			if (document == null)
 			{
 				_logger.Debug("Failed to find document for " + culture.Name + ", creating it.");

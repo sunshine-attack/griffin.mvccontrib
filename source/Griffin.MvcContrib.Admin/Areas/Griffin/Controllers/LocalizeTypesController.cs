@@ -15,7 +15,7 @@ using TypePrompt = Griffin.MvcContrib.Localization.Types.TypePrompt;
 
 namespace Griffin.MvcContrib.Areas.Griffin.Controllers
 {
-    [GriffinAuthorize(GriffinAdminRoles.TranslatorName)]
+    
     [Localized]
     public class LocalizeTypesController : Controller
     {

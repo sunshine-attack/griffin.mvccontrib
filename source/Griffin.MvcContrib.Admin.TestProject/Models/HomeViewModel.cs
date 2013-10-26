@@ -13,10 +13,10 @@ namespace Griffin.MvcContrib.Admin.TestProject.Models
         [StringLength(40)]
         public string Name { get; set; }
 
-        [Required, Compare("Name", ErrorMessage = "Ange messy")]
+        [Required, System.ComponentModel.DataAnnotations.Compare("Name", ErrorMessage = "Ange messy")]
         public int Age { get; set; }
 
-        [Required, Compare("Password2")]
+        [Required, System.ComponentModel.DataAnnotations.Compare("Password2")]
         public string Password1 { get; set; }
 
 

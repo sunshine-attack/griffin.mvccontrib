@@ -15,7 +15,7 @@ using ViewPrompt = Griffin.MvcContrib.Areas.Griffin.Models.LocalizeViews.ViewPro
 
 namespace Griffin.MvcContrib.Areas.Griffin.Controllers
 {
-    [GriffinAuthorize(GriffinAdminRoles.TranslatorName)]
+  
     [Localized]
     public class LocalizeViewsController : Controller
     {

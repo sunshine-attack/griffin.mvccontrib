@@ -29,10 +29,10 @@ namespace Griffin.MvcContrib.RavenDb.Localization
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ViewLocalizationRepository"/> class.
 		/// </summary>
-		/// <param name="documentSession">The document session.</param>
-		public ViewLocalizationRepository(IDocumentSession documentSession)
+        /// <param name="documentStore">The document session.</param>
+		public ViewLocalizationRepository(IDocumentStore documentStore)
 		{
-			_documentSession = documentSession;
+            _documentSession = documentStore.OpenSession();
 		}
 
 		#region Implementation of IViewLocalizationRepository
@@ -285,7 +285,7 @@ namespace Griffin.MvcContrib.RavenDb.Localization
 					return document;
 			}
 
-			document = _documentSession.Load<ViewLocalizationDocument>(culture.Name);
+			document = _documentSession.Load<ViewLocalizationDocument>("ViewLocalizationDocument/"+culture.Name);
 			lock (Cache)
 			{
 				Cache[culture.LCID] = document;
