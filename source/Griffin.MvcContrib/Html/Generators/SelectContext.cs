@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Context used when generating select lists

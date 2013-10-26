@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.RavenDb.Localization
+namespace SunshineAttack.Localization.RavenDb.Localization
 {
     [Serializable]
     internal class ViewLocalizationDocument

@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     ///   Maps a namespace to a virtual path
@@ -17,12 +17,12 @@ namespace Griffin.MvcContrib.VirtualPathProvider
         /// <param name="assembly"> The assembly that the views are located in. </param>
         /// <param name="folderNamespace"> Namespace that should correspond to the virtual path "~/". Typically root namespace in your project.</param>
         /// <example>
-        /// HostingEnvironment.RegisterVirtualPathProvider(GriffinVirtualPathProvider.Current);
+        /// HostingEnvironment.RegisterVirtualPathProvider(SunshineAttackVirtualPathProvider.Current);
         /// 
         /// var embeddedProvider = new EmbeddedViewFileProvider();
-        /// embeddedProvider.Add(new NamespaceMapping(typeof (GriffinHomeController).Assembly, "Griffin.MvcContrib"));
+        /// embeddedProvider.Add(new NamespaceMapping(typeof (SunshineAttackHomeController).Assembly, "Griffin.MvcContrib"));
         /// 
-        /// GriffinVirtualPathProvider.Current.Add(embeddedProvider);
+        /// SunshineAttackVirtualPathProvider.Current.Add(embeddedProvider);
         /// </example>
         public NamespaceMapping(Assembly assembly, string folderNamespace)
         {

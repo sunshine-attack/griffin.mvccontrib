@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Localization.FlatFile
+namespace SunshineAttack.Localization.Localization.FlatFile
 {
     /// <summary>
     /// Stores localization strings in JSON files in App_Data

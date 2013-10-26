@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Provides validation messages for attributes from a specific data source.

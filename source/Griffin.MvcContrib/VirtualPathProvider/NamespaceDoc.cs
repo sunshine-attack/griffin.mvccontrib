@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     /// The virtual path provider can be used as an alternative to the one which comes with the .NET framework.
     /// </summary>
     /// <remarks>
     /// <para>
-    /// The virtual path provider is named <see cref="GriffinVirtualPathProvider"/>. Look at it's documentation for further information.
+    /// The virtual path provider is named <see cref="SunshineAttackVirtualPathProvider"/>. Look at it's documentation for further information.
     /// </para>
     /// <para>
     /// To be able to serve static files you have to tell IIS that it should pass those to the virtual path provider. It's done in web.config

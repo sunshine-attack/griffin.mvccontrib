@@ -1,8 +1,7 @@
-using System.Diagnostics;
 using System.IO;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     ///   Locates views that are embedded resources.
@@ -19,8 +18,8 @@ namespace Griffin.MvcContrib.VirtualPathProvider
     /// var provider = new EmbeddedViewFileProvider(fixer);
     /// provider.Add(new NamespaceMapping(typeof (Areas.Griffin.GriffinAreaRegistration).Assembly, "Griffin.MvcContrib"));
     /// 
-    /// GriffinVirtualPathProvider.Current.Add(provider);
-    /// HostingEnvironment.RegisterVirtualPathProvider(GriffinVirtualPathProvider.Current);
+    /// SunshineAttackVirtualPathProvider.Current.Add(provider);
+    /// HostingEnvironment.RegisterVirtualPathProvider(SunshineAttackVirtualPathProvider.Current);
     /// </code>
     /// </example>
     public class EmbeddedViewFileProvider : EmbeddedFileProvider

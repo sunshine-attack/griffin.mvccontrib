@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Used to generate a <see cref="NestedTagBuilder"/> for a specific HTML tag.

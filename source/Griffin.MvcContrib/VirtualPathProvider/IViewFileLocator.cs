@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     /// Used to locate files on disk for the <see cref="IViewFileProvider"/>.

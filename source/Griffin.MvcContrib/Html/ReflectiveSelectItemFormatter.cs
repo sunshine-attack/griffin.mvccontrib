@@ -1,7 +1,7 @@
 using System;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Uses reflection to format objects into select list items

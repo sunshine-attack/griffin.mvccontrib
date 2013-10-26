@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web.Hosting;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Providers.Roles
+namespace SunshineAttack.Localization.Providers.Roles
 {
     /// <summary>
     /// Provides roles through a repository

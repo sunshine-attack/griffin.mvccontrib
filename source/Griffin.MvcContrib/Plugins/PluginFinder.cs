@@ -4,16 +4,16 @@ using System.IO;
 using System.Reflection;
 using System.Web.Compilation;
 using System.Web.Hosting;
-using Griffin.MvcContrib.Logging;
+using SunshineAttack.Localization.Logging;
 
-namespace Griffin.MvcContrib.Plugins
+namespace SunshineAttack.Localization.Plugins
 {
     /// <summary>
     /// Finds all plugins and load them into the app domain (or use previously loaded assemblies)
     /// </summary>
     /// <remarks>
     /// Loads all plugins whos file name starts with "Plugin." </remarks>
-    /// <seealso cref="Griffin.MvcContrib.Plugins"/>
+    /// <seealso cref="SunshineAttack.MvcContrib.Plugins"/>
     public class PluginFinder
     {
         private readonly List<Assembly> _assemblies = new List<Assembly>();

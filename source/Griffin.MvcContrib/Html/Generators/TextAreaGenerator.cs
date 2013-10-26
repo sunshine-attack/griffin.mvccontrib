@@ -1,8 +1,6 @@
 using System.Collections.Generic;
-using System.Linq;
-using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Text area generator

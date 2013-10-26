@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Tag builder which can contain child tag builders

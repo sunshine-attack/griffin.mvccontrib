@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
+﻿using System.Diagnostics;
 
-namespace Griffin.MvcContrib
+namespace SunshineAttack.Localization
 {
     /// <summary>
     /// Detects if the code is running within visual studio

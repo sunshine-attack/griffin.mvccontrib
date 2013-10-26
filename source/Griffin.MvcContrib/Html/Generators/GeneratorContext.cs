@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Context used when generating new elements.

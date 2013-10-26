@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// How to sort items

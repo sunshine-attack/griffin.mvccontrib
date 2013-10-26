@@ -24,11 +24,11 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
-using Griffin.MvcContrib.Localization.Types;
-using Griffin.MvcContrib.Localization.ValidationMessages;
-using Griffin.MvcContrib.Logging;
+using SunshineAttack.Localization.Localization.Types;
+using SunshineAttack.Localization.Localization.ValidationMessages;
+using SunshineAttack.Localization.Logging;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Used to localize DataAnnotation attribute error messages and view models
@@ -112,7 +112,7 @@ namespace Griffin.MvcContrib.Localization
 
 
             if (metadata.Model is IValidatableObject)
-                validators.Add(new Griffin.MvcContrib.Localization.ValidatableObjectAdapter(metadata, context));
+                validators.Add(new ValidatableObjectAdapter(metadata, context));
 
 
             return validators;

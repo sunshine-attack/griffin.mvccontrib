@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using System.Web.Routing;
-using Griffin.MvcContrib.Html.Generators;
+using SunshineAttack.Localization.Html.Generators;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Facade to be able to use the Helpers as drop in replacements to the ones in MVC3. (Just do a replace all)

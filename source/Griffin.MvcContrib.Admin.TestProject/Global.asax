@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Griffin.MvcContrib.Admin.TestProject.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SunshineAttack.Localization.Admin.TestProject.MvcApplication" Language="C#" %>

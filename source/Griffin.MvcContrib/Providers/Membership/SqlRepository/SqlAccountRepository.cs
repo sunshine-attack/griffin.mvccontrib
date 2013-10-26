@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.Common;
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership.SqlRepository
+namespace SunshineAttack.Localization.Providers.Membership.SqlRepository
 {
     /// <summary>
     /// SQL repository.

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Allow cross site scripting for a controller or an action.

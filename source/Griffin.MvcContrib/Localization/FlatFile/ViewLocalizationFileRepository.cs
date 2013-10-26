@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Json;
 using System.Web.Hosting;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.Localization.FlatFile
+namespace SunshineAttack.Localization.Localization.FlatFile
 {
     /// <summary>
     ///   Uses files to store translated view strings

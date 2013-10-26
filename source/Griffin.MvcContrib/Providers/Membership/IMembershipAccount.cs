@@ -19,7 +19,7 @@
 
 using System;
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// Account information for a user 

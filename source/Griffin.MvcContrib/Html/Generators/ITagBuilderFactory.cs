@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Griffin.MvcContrib.Html.Generators
+﻿namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Used to create tag builders.

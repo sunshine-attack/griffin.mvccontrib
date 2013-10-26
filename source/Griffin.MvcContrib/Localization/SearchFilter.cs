@@ -1,4 +1,4 @@
-﻿namespace Griffin.MvcContrib.Localization
+﻿namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Used to filter localization prompts

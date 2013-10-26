@@ -1,6 +1,6 @@
 using System;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// Used to limit the search result

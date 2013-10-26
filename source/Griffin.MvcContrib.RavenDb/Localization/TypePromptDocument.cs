@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using Griffin.MvcContrib.Localization.Types;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.RavenDb.Localization
+namespace SunshineAttack.Localization.RavenDb.Localization
 {
     /// <summary>
     /// Document used to store localization entry in RavenDb.

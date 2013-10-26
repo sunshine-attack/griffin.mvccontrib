@@ -20,7 +20,7 @@
 using System.Collections.Generic;
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// Repository for user accounts

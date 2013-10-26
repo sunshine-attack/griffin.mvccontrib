@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Griffin.MvcContrib.RavenDb
+namespace SunshineAttack.Localization.RavenDb
 {
     /// <summary>
     /// Can be used to find all services in the framework which should be registered.

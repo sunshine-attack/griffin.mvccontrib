@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Griffin.MvcContrib.Providers.Membership.SqlRepository
+namespace SunshineAttack.Localization.Providers.Membership.SqlRepository
 {
     /// <summary>
     /// Default implementation

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// Used to import prompts from an external source.

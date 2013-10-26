@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Admin.TestProject.Areas.TestArea
+namespace SunshineAttack.Localization.Admin.TestProject.Areas.TestArea
 {
     public class TestAreaAreaRegistration : AreaRegistration
     {

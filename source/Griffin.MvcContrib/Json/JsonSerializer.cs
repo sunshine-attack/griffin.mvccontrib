@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Used to serialize the objects.

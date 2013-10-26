@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Hosting;
-using Griffin.MvcContrib.VirtualPathProvider;
+using SunshineAttack.Localization.VirtualPathProvider;
 
-namespace Griffin.MvcContrib.Plugins
+namespace SunshineAttack.Localization.Plugins
 {
     /// <summary>
     /// Locator which loads views using the project structure to enable runtime view edits.
@@ -14,7 +14,7 @@ namespace Griffin.MvcContrib.Plugins
     /// <remarks>
     /// Works as long as you have used the structure which is described in the namespace documentation.
     /// </remarks>
-    /// <seealso cref="Griffin.MvcContrib.Plugins"/>
+    /// <seealso cref="SunshineAttack.MvcContrib.Plugins"/>
     public class PluginFileLocator : IViewFileLocator
     {
         private readonly string _basePath;

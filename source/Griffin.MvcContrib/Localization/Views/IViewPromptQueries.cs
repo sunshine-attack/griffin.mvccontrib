@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// Queries used to find view texts

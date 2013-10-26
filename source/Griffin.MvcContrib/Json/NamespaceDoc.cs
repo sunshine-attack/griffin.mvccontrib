@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Classes making it easier to handle JSON in MVC

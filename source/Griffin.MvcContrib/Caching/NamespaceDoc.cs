@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Caching
+namespace SunshineAttack.Localization.Caching
 {
     /// <summary>
     /// Classes making it easier to handle Caching in MVC

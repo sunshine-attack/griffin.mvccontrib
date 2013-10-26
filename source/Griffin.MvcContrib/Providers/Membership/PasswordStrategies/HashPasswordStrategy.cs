@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership.PasswordStrategies
+namespace SunshineAttack.Localization.Providers.Membership.PasswordStrategies
 {
     /// <summary>
     /// Hash a password using a salt.

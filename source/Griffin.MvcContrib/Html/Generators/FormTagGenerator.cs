@@ -22,10 +22,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Web.Mvc;
-using Griffin.MvcContrib.Localization;
-using Griffin.MvcContrib.Localization.Types;
+using SunshineAttack.Localization.Localization;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Base class for all FORM tag generators

@@ -1,10 +1,10 @@
-using Griffin.MvcContrib.Localization;
 using System;
 using System.Collections.Generic;
-using System.Web.Mvc;
 using System.Linq;
+using System.Web.Mvc;
+using SunshineAttack.Localization.Localization;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Used to generate SELECT tags

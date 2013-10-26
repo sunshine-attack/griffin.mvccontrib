@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Linq;
-using System.Reflection;
 using System.Runtime.Serialization;
 using System.Web;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// Used to store translated prompts.

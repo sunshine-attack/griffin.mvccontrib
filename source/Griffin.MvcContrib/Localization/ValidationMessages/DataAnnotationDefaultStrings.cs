@@ -4,11 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Resources;
-using System.Text;
 using System.Threading;
-using Griffin.MvcContrib.Localization.Types;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Loads the default DataAnnotation strings from the resource file System.ComponentModel.DataAnnotations.Resources.DataAnnotationsResources

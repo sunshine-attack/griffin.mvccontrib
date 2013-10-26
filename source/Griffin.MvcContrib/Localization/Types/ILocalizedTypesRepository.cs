@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// Repository used to provide localization strings for different types such as validation attributes and models.

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// All classes used to handle translations for validation messages and models

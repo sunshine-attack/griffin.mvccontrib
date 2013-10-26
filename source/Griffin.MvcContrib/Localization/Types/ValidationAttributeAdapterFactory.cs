@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
-using Griffin.MvcContrib.Providers;
 using CompareAttribute = System.Web.Mvc.CompareAttribute;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// creates adapters for client side validation

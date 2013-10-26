@@ -22,9 +22,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Resources;
 using System.Web.Mvc;
-using Griffin.MvcContrib.Localization.Types;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Used to return strings from one or more StringTables.

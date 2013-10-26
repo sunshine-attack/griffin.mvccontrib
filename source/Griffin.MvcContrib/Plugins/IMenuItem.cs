@@ -1,7 +1,7 @@
 using System;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Plugins
+namespace SunshineAttack.Localization.Plugins
 {
     /// <summary>
     /// A menu item

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Providers.Roles
+namespace SunshineAttack.Localization.Providers.Roles
 {
     /// <summary>
     /// A user and it's roles

@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Context used when fetching the string from one of the <see cref="IValidationMessageDataSource"/>.

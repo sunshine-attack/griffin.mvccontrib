@@ -1,4 +1,4 @@
-﻿namespace Griffin.MvcContrib.Logging
+﻿namespace SunshineAttack.Localization.Logging
 {
     /// <summary>
     /// Used to enable logging in the framework

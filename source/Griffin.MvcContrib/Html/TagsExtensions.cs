@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Extension methods for Tag collection

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// Repository used to handle localized strings

@@ -5,7 +5,7 @@ using System.Web.Caching;
 using System.Web.Hosting;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     ///   Provides view files from disk
@@ -20,7 +20,7 @@ namespace Griffin.MvcContrib.VirtualPathProvider
     /// <code>
     /// var provider = new DiskFileLocator(new DiskProvider("/MyArea/", @"..\..\MyClassLibrary\Areas\MyArea\Views"));
     /// GriffinVirtualPathProvider.Current.Add(provider);
-    /// HostingEnvironment.RegisterVirtualPathProvider(GriffinVirtualPathProvider.Current);
+    /// HostingEnvironment.RegisterVirtualPathProvider(SunshineAttackVirtualPathProvider.Current);
     /// </code>
     /// </example>
     /// <seealso cref="IViewFileLocator"/>

@@ -1,8 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
-using Griffin.MvcContrib.Localization.Types;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Types;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Classes making it easier to handle localization in MVC

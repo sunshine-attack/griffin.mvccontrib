@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Generates radio buttons for different list

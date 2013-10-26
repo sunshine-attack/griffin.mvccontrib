@@ -1,11 +1,11 @@
-﻿using Griffin.MvcContrib.Localization;
-using Griffin.MvcContrib.Localization.Types;
-using System;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Web.Mvc;
+using SunshineAttack.Localization.Localization;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     public class TextHtmlHelper<TModel> : HtmlHelperFor<TModel>
     {

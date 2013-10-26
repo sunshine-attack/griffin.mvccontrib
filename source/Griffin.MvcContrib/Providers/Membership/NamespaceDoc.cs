@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// A more SOLID membership provider

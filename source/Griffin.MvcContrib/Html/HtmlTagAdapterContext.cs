@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Context used by <seealso cref="IHtmlTagAdapter"/>.

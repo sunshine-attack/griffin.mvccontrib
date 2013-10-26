@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.Localization.FlatFile
+namespace SunshineAttack.Localization.Localization.FlatFile
 {
     /// <summary>
     /// all prompts for a language

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Plugins
+namespace SunshineAttack.Localization.Plugins
 {
     /// <summary>
     /// A menu item which contains children

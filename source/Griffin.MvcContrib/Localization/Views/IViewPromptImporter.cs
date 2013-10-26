@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// Can import view prompts from an external source

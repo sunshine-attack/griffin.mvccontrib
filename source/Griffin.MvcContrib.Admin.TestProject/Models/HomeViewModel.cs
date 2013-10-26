@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace Griffin.MvcContrib.Admin.TestProject.Models
+namespace SunshineAttack.Localization.Admin.TestProject.Models
 {
     public class HomeViewModel
     {

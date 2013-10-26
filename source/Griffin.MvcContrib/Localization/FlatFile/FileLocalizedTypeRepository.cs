@@ -6,9 +6,9 @@ using System.Linq;
 using System.Runtime.Serialization.Json;
 using System.Threading;
 using System.Web.Hosting;
-using Griffin.MvcContrib.Localization.Types;
+using SunshineAttack.Localization.Localization.Types;
 
-namespace Griffin.MvcContrib.Localization.FlatFile
+namespace SunshineAttack.Localization.Localization.FlatFile
 {
     /// <summary>
     /// Uses to localize everything for <see cref="ILocalizedStringProvider"/> in files that are placed in the AppData folder.

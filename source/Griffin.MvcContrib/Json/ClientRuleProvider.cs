@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using System.Linq;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Generates a JSON string from all client validation rules

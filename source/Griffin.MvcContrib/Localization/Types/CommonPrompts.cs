@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// Any prompt found for this type will be used if the requested type do not contain the requested prompt

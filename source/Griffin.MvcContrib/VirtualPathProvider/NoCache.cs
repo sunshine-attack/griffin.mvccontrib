@@ -1,6 +1,6 @@
 ﻿using System.Web.Caching;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     /// Use this implementation to indicate that no cache should be used.

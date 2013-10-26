@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Context information used to be able to identify and load the correct translation

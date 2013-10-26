@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Context used by <seealso cref="IFormItemAdapter"/>.

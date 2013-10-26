@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Provides messages for all attributes in ASP.NET MVC

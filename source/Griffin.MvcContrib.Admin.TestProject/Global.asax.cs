@@ -1,23 +1,20 @@
-﻿using System;
-using System.Security.Principal;
-using System.Web;
-using System.Web.Hosting;
+﻿using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
-using Griffin.MvcContrib.Localization;
-using Griffin.MvcContrib.Localization.Types;
-using Griffin.MvcContrib.Localization.Views;
-using Griffin.MvcContrib.VirtualPathProvider;
 using Raven.Client;
 using Raven.Client.Document;
-using IContainer = Autofac.IContainer;
+using SunshineAttack.Localization.Areas.SunshineAttack;
+using SunshineAttack.Localization.Localization;
+using SunshineAttack.Localization.Localization.Types;
+using SunshineAttack.Localization.Localization.Views;
+using SunshineAttack.Localization.RavenDb.Localization;
+using SunshineAttack.Localization.VirtualPathProvider;
 
-namespace Griffin.MvcContrib.Admin.TestProject
-{
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
+namespace SunshineAttack.Localization.Admin.TestProject
+{ // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
+// visit http://go.microsoft.com/?LinkId=9394801
 
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -38,7 +35,7 @@ namespace Griffin.MvcContrib.Admin.TestProject
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional }, // Parameter defaults
                 new[] { typeof(Controllers.HomeController).Namespace }
-            );
+                );
 
         }
 
@@ -68,7 +65,7 @@ namespace Griffin.MvcContrib.Admin.TestProject
             ModelMetadataProviders.Current = new LocalizedModelMetadataProvider();
             var temp = new LocalizedModelValidatorProvider();
 
-           ModelValidatorProviders.Providers.Add(temp);
+            ModelValidatorProviders.Providers.Add(temp);
 
         }
 
@@ -77,48 +74,46 @@ namespace Griffin.MvcContrib.Admin.TestProject
 
 
             // add the controllers
-            builder.RegisterControllers(typeof(MvcContrib.Areas.Griffin.GriffinAreaRegistration).Assembly);
+            builder.RegisterControllers(typeof(SunshineAttackAreaRegistration).Assembly);
 
             // Loads strings from repositories.
             builder.RegisterType<RepositoryStringProvider>().AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterType<ViewLocalizer>().AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterInstance(new Document().Store).SingleInstance();
-            builder.RegisterType<RavenDb.Localization.TypeLocalizationRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
-            builder.RegisterType<RavenDb.Localization.ViewLocalizationRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterType<TypeLocalizationRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterType<ViewLocalizationRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
       
         }
 
         private static void AddSupportForEmbeddedViews()
         {
-            GriffinVirtualPathProvider.Current.RegisterAdminFiles("~/Views/Shared/_Layout.cshtml");
-            HostingEnvironment.RegisterVirtualPathProvider(GriffinVirtualPathProvider.Current);
+            SunshineAttackVirtualPathProvider.Current.RegisterAdminFiles("~/Views/Shared/_Layout.cshtml");
+            HostingEnvironment.RegisterVirtualPathProvider(SunshineAttackVirtualPathProvider.Current);
         }
     }
-}
 
 
-
-
-public class Document 
-{
-    private static IDocumentStore _store;
-
-    public IDocumentStore Store 
+    public class Document 
     {
-        get
+        private static IDocumentStore _store;
+
+        public IDocumentStore Store 
         {
-            //Initialize RavenDB Connection Store
-            if (_store != null) return _store;
-
-            _store = new DocumentStore 
+            get
             {
-                Conventions = {IdentityPartsSeparator = "-"},
-                ConnectionStringName = "RavenDB"
-            };
+                //Initialize RavenDB Connection Store
+                if (_store != null) return _store;
 
-            _store.Initialize();
+                _store = new DocumentStore 
+                {
+                    Conventions = {IdentityPartsSeparator = "-"},
+                    ConnectionStringName = "RavenDB"
+                };
 
-            return _store;
+                _store.Initialize();
+
+                return _store;
+            }
         }
     }
 }

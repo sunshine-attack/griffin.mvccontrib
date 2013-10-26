@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.Caching;
 using System.Web.Hosting;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     /// Used to provide embedded files (other than views).

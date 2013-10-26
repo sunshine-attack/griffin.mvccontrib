@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Welcome to SunshineAttack.Localization administration area";
+}
+
+<h2>@("Welcome to SunshineAttack.Localization administration area")</h2>
+
+<p>Select one of the following features</p>
+<ul>
+    <li>@Html.ActionLink("Type localization", "Index", "LocalizeTypes")</li>
+    <li>@Html.ActionLink("View localization", "Index", "LocalizeViews")</li>
+</ul>

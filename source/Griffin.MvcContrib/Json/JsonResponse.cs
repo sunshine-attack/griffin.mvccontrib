@@ -3,7 +3,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Response being sent back for JSON requests.

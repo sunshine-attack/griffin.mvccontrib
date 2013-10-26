@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Globalization;
-using System.IO;
 using System.Web.Routing;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     ///   Uses a <see cref="IViewLocalizationRepository" /> to localize views.
     /// </summary>
     /// <remarks>
     /// <para>
-    /// Localizes views for the <see cref="GriffinWebViewPage"/> class. Will also create empty prompts for
+    /// Localizes views for the <see cref="SunshineAttackWebViewPage"/> class. Will also create empty prompts for
     /// all cultures with missing prompts.
     /// </para>
     /// </remarks>

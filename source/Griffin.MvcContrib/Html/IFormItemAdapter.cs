@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Adapters can modify the generated HTML tags.

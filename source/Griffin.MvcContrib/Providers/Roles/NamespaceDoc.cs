@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib.Providers.Roles
+namespace SunshineAttack.Localization.Providers.Roles
 {
     /// <summary>
     /// Not tested yet, feel free to try it and come back with feedback ;)

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     ///   Sets the default culture (UICulture) which is used in the localization process

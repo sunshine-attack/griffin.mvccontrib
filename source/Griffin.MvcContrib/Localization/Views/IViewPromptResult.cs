@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// Query result

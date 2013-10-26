@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     ///   Adds default usings, sets an inherits clause and specifies the layout name
@@ -24,7 +24,7 @@ namespace Griffin.MvcContrib.VirtualPathProvider
         /// </summary>
         public EmbeddedViewFixer()
         {
-            WebViewPageClassName = "Griffin.MvcContrib.GriffinWebViewPage";
+            WebViewPageClassName = "SunshineAttack.Localization.SunshineAttackWebViewPage";
             LayoutPath = null;
         }
 
@@ -32,16 +32,16 @@ namespace Griffin.MvcContrib.VirtualPathProvider
         ///   Base view class to inherit.
         /// </summary>
         /// <example>
-        ///   <code>GriffinVirtualPathProvider.Current.LayoutPath = "Griffin.MvcContrib.GriffinWebViewPage";</code>
+        ///   <code>SunshineAttackVirtualPathProvider.Current.LayoutPath = "SunshineAttack.Localization.SunshineAttackWebViewPage";</code>
         /// </example>
-        /// <value> Default is Griffin.MvcContrib.GriffinWebViewPage </value>
+        /// <value> Default is SunshineAttack.Localization.SunshineAttackWebViewPage</value>
         public string WebViewPageClassName { get; set; }
 
         /// <summary>
         ///   Gets or sets relative path to the layout file to use
         /// </summary>
         /// <example>
-        ///   <code>GriffinVirtualPathProvider.Current.LayoutPath = "~/Views/Shared/_Layout.cshtml";</code>
+        ///   <code>SunshineAttackVirtualPathProvider.Current.LayoutPath = "~/Views/Shared/_Layout.cshtml";</code>
         /// </example>
         /// <value> Default is "~/Views/Shared/_Layout.cshtml" </value>
         public string LayoutPath { get; set; }

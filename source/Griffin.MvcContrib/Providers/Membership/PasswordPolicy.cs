@@ -17,7 +17,7 @@
  * MA 02110-1301 USA
  */
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// Default policy object

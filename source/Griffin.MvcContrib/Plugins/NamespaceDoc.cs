@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using Griffin.MvcContrib.VirtualPathProvider;
+﻿using System.Runtime.CompilerServices;
+using SunshineAttack.Localization.VirtualPathProvider;
 
-namespace Griffin.MvcContrib.Plugins
+namespace SunshineAttack.Localization.Plugins
 {
     /// <summary>
     /// This framework can be used to create a plugin system for ASP.NET MVC3 together with an inversion of control container.
@@ -24,7 +20,7 @@ namespace Griffin.MvcContrib.Plugins
     /// </para>
     /// <para>
     /// The <see cref="PluginFinder"/> will help you load plugin DLL:s from a plugin folder. Use <see cref="PluginFinder.Assemblies"/> to
-    /// register all controllers in your favorite IoC container. The use <see cref="GriffinVirtualPathProvider"/> to load your plugin views
+    /// register all controllers in your favorite IoC container. The use <see cref="SunshineAttackVirtualPathProvider"/> to load your plugin views
     /// from disk or embedded resources. The <see cref="ExternalViewFixer"/> allows you to keep the views without any code changes (which is 
     /// required otherwise for views in class libraries).
     /// </para>

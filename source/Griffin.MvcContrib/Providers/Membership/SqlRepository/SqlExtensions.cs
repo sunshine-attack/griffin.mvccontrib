@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace Griffin.MvcContrib.Providers.Membership.SqlRepository
+namespace SunshineAttack.Localization.Providers.Membership.SqlRepository
 {
     /// <summary>
     /// Extension methods for different SQL classes

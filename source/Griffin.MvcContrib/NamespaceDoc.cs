@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib
+namespace SunshineAttack.Localization
 {
     /// <summary>
     /// Welcome to Griffin.MvcContrib project. 

@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// A text that should be translated

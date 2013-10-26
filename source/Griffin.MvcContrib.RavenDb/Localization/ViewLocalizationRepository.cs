@@ -1,14 +1,14 @@
-﻿using Griffin.MvcContrib.Localization;
-using Griffin.MvcContrib.Localization.Views;
-using Griffin.MvcContrib.Logging;
-using Raven.Client;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
+using Raven.Client;
+using SunshineAttack.Localization.Localization;
+using SunshineAttack.Localization.Localization.Views;
+using SunshineAttack.Localization.Logging;
 
-namespace Griffin.MvcContrib.RavenDb.Localization
+namespace SunshineAttack.Localization.RavenDb.Localization
 {
 	/// <summary>
 	/// RavenDB repository for view localizations

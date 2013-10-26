@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     ///   Create a json structure from model state

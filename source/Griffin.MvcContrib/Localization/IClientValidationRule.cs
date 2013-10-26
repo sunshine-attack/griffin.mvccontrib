@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Interface for clint validation rules

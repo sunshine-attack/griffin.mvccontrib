@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html.Generators
+namespace SunshineAttack.Localization.Html.Generators
 {
     /// <summary>
     /// Generates text inputs where the title has been set to the description

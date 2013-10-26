@@ -1,8 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.Serialization.Json;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     ///   Double dictionary used by <see cref="ValidationRules" /> .

@@ -23,7 +23,7 @@ using System.Configuration.Provider;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// A membership provider which uses different components to make it more SOLID.

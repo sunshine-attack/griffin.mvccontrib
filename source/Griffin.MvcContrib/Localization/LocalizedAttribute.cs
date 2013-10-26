@@ -23,7 +23,7 @@ using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Localization
+namespace SunshineAttack.Localization.Localization
 {
     /// <summary>
     /// Uses a cookie and query string to turn into a language

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Griffin.MvcContrib.Localization.ValidationMessages
+namespace SunshineAttack.Localization.Localization.ValidationMessages
 {
     /// <summary>
     /// Used to supply custom validation messages for attributes.

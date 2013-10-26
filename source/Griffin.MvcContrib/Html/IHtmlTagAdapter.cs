@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Adapter invoked for everything but FORM elements.

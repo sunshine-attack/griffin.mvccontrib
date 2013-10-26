@@ -19,7 +19,7 @@
 
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership
+namespace SunshineAttack.Localization.Providers.Membership
 {
     /// <summary>
     /// Used to handle passwords.

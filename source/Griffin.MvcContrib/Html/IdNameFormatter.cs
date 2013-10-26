@@ -1,4 +1,4 @@
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Maps to "Id" and "Name" properties

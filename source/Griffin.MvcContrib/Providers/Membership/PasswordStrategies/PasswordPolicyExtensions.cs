@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Griffin.MvcContrib.Providers.Membership.PasswordStrategies
+namespace SunshineAttack.Localization.Providers.Membership.PasswordStrategies
 {
     /// <summary>
     /// Extension methods for password policies.

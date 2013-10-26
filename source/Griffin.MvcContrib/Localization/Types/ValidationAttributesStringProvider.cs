@@ -6,7 +6,7 @@ using System.Linq;
 using System.Resources;
 using System.Threading;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     ///   Used to get default validation messages

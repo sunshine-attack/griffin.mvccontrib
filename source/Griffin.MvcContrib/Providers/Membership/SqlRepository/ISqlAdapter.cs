@@ -1,4 +1,4 @@
-﻿namespace Griffin.MvcContrib.Providers.Membership.SqlRepository
+﻿namespace SunshineAttack.Localization.Providers.Membership.SqlRepository
 {
     /// <summary>
     /// Used to generate vendor specific SQL statements.

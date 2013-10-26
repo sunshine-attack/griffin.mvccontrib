@@ -1,6 +1,6 @@
 using System;
 
-namespace Griffin.MvcContrib.Logging
+namespace SunshineAttack.Localization.Logging
 {
     /// <summary>
     /// Logging interface

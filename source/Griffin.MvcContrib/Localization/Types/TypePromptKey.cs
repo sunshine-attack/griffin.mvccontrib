@@ -2,9 +2,9 @@ using System;
 using System.Runtime.Serialization;
 using System.Security.Cryptography;
 using System.Text;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.Localization.Types
+namespace SunshineAttack.Localization.Localization.Types
 {
     /// <summary>
     /// Type prompt key.

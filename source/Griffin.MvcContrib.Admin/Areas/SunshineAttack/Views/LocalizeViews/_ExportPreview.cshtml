@@ -1,0 +1,12 @@
+﻿@model IEnumerable<SunshineAttack.Localization.Areas.SunshineAttack.Models.LocalizeViews.ViewPrompt>
+@{
+    ViewBag.Title = "Index";
+}
+@foreach (var prompt in Model)
+{
+    <tr>
+        <td>@prompt.LocaleId</td>
+        <td>@prompt.ViewPath/@prompt.TextName</td>
+        <td>@prompt.TranslatedText</td>
+    </tr>
+}

@@ -1,4 +1,4 @@
-﻿namespace Griffin.MvcContrib.Json
+﻿namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// A response sent back to the client

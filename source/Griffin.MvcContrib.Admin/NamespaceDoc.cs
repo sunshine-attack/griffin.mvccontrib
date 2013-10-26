@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Griffin.MvcContrib
+namespace SunshineAttack.Localization
 {
     /// <summary>
     /// Administration area for Griffin.MvcContrib
@@ -58,8 +58,8 @@ namespace Griffin.MvcContrib
     /// ]]>
     /// 
     /// // configure the content files used by the admin area.
-    /// GriffinVirtualPathProvider.Current.RegisterAdminFiles("~/Views/Shared/_Layout.cshtml");
-    /// HostingEnvironment.RegisterVirtualPathProvider(GriffinVirtualPathProvider.Current);
+    /// SunshineAttackVirtualPathProvider.Current.RegisterAdminFiles("~/Views/Shared/_Layout.cshtml");
+    /// HostingEnvironment.RegisterVirtualPathProvider(SunshineAttackVirtualPathProvider.Current);
     /// 
     /// </code>
     /// </description>

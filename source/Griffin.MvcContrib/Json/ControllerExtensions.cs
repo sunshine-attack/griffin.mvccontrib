@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Json
+namespace SunshineAttack.Localization.Json
 {
     /// <summary>
     /// Extension methods for working with structured JSON

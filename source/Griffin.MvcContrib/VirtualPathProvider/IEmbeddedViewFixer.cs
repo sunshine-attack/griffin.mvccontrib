@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
     /// Used to correct embedded views

@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Web.Profile;
 
-namespace Griffin.MvcContrib.Providers.Profile
+namespace SunshineAttack.Localization.Providers.Profile
 {
     /// <summary>
     /// 

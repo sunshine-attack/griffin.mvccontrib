@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Security;
 
-namespace Griffin.MvcContrib.Providers.Membership.PasswordStrategies
+namespace SunshineAttack.Localization.Providers.Membership.PasswordStrategies
 {
     /// <summary>
     /// Strategy that do nothing with the passwords.

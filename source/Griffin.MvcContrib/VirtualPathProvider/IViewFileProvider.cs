@@ -3,10 +3,10 @@ using System.Collections;
 using System.Web.Caching;
 using System.Web.Hosting;
 
-namespace Griffin.MvcContrib.VirtualPathProvider
+namespace SunshineAttack.Localization.VirtualPathProvider
 {
     /// <summary>
-    /// Provides view files to <see cref="GriffinVirtualPathProvider"/>.
+    /// Provides view files to <see cref="SunshineAttackVirtualPathProvider"/>.
     /// </summary>
     public interface IViewFileProvider
     {

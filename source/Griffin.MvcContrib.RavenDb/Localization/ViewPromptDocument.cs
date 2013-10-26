@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading;
-using Griffin.MvcContrib.Localization.Views;
+using SunshineAttack.Localization.Localization.Views;
 
-namespace Griffin.MvcContrib.RavenDb.Localization
+namespace SunshineAttack.Localization.RavenDb.Localization
 {
     /// <summary>
     /// A phrase which can be stored in a data source.

@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web.Routing;
 
-namespace Griffin.MvcContrib.Localization.Views
+namespace SunshineAttack.Localization.Localization.Views
 {
     /// <summary>
     /// View prompt key.

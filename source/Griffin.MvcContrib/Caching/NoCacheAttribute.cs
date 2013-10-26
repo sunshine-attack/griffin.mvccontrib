@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Caching
+namespace SunshineAttack.Localization.Caching
 {
     /// <summary>
     /// Do not cache anything

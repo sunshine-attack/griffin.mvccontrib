@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Griffin.MvcContrib.Html
+namespace SunshineAttack.Localization.Html
 {
     /// <summary>
     /// Takes any enumerable list and creates <see cref="SelectListItem"/>:s of them
