@@ -19,7 +19,6 @@ Read the wiki for a more detailed introduction.
 
 ### Usage
 To localize text in your Razor Views, use the `@T("text")` alias method:
-
 ```html
     <div id="content">
         <h2>@T("Welcome to my web app!")</h2>
@@ -31,6 +30,26 @@ To localize text in your Razor Views, use the `@T("text")` alias method:
         </span>
     </div>
 ```
+
+### Installing
+
+1. Add the following assembly references to your ASP.NET MVC 5 project:
+```
+* SunshineAttack.Localization.Admin
+* SunshineAttack.Localization.RavenDb
+* SunshineAttack.Localization
+```
+
+2. In your project's web.config, add the following elements to the `<configuration>` section:
+```xml
+<connectionStrings>
+    <add name="RavenDB" connectionString="Url=http://Vader:8080;Database=SunshineAttack.Localization" />
+  </connectionStrings>
+```
+
+3. Make sure your projects ***global.asax*** has most of the code from the [SunshineAttack.Localization.Admin.TestProject ***global.asax***](https://github.com/sunshine-attack/SunshineAttack.Localization/blob/master/source/SunshineAttack.Localization.Admin.TestProject/Global.asax.cs)
+
+
 
 
 	
