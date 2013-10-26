@@ -10,12 +10,12 @@ Forked https://github.com/jgauffin/griffin.mvccontrib to focus on localization a
 Current features
 ----------------
 
-Read the wiki for a more detailed introduction.
-
 * Easy model, view and validation localization without ugly attributes.
 * HtmlHelpers that allows you to extend them or modify the generated HTML before it's written to the view.
 * Base structure for JSON responses to allow integration between different plugins.
-* Administration area for localization administration
+* Web-based administration
+
+Read the wiki for a more detailed introduction.
 
 
 	
