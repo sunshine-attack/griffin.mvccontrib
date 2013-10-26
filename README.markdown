@@ -6,7 +6,6 @@ Forked https://github.com/jgauffin/griffin.mvccontrib to focus on localization a
 * Removed membership provider features
 * Added ASP.NET MVC 5 support
 * Updated dependentant libraries as needed
-* Focus on RavenDb Integration
 
 Current features
 ----------------
